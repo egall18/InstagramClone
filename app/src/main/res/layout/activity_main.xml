@@ -11,6 +11,7 @@
         android:id="@+id/etDescription"
         android:layout_width="match_parent"
         android:layout_height="68dp"
+        android:layout_marginTop="15dp"
         android:ems="10"
         android:hint="Description..." />
 
@@ -18,24 +19,44 @@
         android:id="@+id/btnCaptureImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Take Picture" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ED677B"
+        android:text="Take Picture"
+        android:textColor="#FDFCFC"
+        android:textColorHighlight="#F6F6F6"
+        android:textColorHint="#F8F8F8"
+        android:textColorLink="#F8F7F7" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:id="@+id/ivPostImage"
         tools:srcCompat="@tools:sample/avatars"/>
+
     <Button
+        android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSubmit"
-        android:text="Submit"/>
+        android:layout_marginTop="20dp"
+        android:background="#25CC55"
+        android:text="Submit"
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="#FAF9F9"
+        android:textColorHint="#FBFAFA"
+        android:textColorLink="#F8F5F5" />
 
     <Button
         android:id="@+id/btnLogout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Logout" />
+        android:layout_marginTop="10dp"
+        android:background="#708CE1"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F6F5F5"
+        android:textColorHint="#F8F5F5"
+        android:textColorLink="#F6F4F4" />
 
 
 </LinearLayout>

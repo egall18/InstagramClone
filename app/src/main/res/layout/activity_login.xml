@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_margin="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
     tools:context=".LoginActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginTop="0dp"
+        android:baselineAligned="true"
+        app:srcCompat="@drawable/nav_logo_whiteout" />
 
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:ems="10"
         android:hint="username" />
 
@@ -19,6 +37,7 @@
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword" />
@@ -27,13 +46,25 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:layout_marginTop="15dp"
+        android:background="#15A9ED"
+        android:text="Login"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#FBFBFB"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FDFDFD" />
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Up" />
+        android:layout_marginTop="15dp"
+        android:background="#10CA2F"
+        android:text="Sign Up"
+        android:textColor="#FAF9F9"
+        android:textColorHighlight="#FAF8F8"
+        android:textColorHint="#FAF9F9"
+        android:textColorLink="#F8F7F7" />
 
 
 </LinearLayout>
